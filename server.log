@@ -1,0 +1,25 @@
+INFO:root:Starting server...
+INFO:root:Generating RSA keys...
+INFO:root:Binding socket to address: 0.0.0.0 : 2424
+INFO:root:Client ('127.0.0.1', 47798) connected!
+INFO:root:Message from client ('127.0.0.1', 47798): b'CONNECT_SERVER'
+INFO:root:Sending public key to client ('127.0.0.1', 47798)
+INFO:root:Message from client ('127.0.0.1', 47798): b'RECEIVE_SESSION_KEY'
+INFO:root:Receiving encrypted session key from client ('127.0.0.1', 47798)
+INFO:root:Decrypting session key with private key
+INFO:root:Adding client ('127.0.0.1', 47798) to connected clients
+INFO:root:Starting thread for client ('127.0.0.1', 47798) : Thread-1
+INFO:root:Client ('127.0.0.1', 47800) connected!
+INFO:root:Message from client ('127.0.0.1', 47800): b'CONNECT_SERVER'
+INFO:root:Sending public key to client ('127.0.0.1', 47800)
+INFO:root:Message from client ('127.0.0.1', 47800): b'RECEIVE_SESSION_KEY'
+INFO:root:Receiving encrypted session key from client ('127.0.0.1', 47800)
+INFO:root:Decrypting session key with private key
+INFO:root:Adding client ('127.0.0.1', 47800) to connected clients
+INFO:root:Starting thread for client ('127.0.0.1', 47800) : Thread-2
+INFO:root:Message from client ('127.0.0.1', 47798): b'Hello'
+INFO:root:Message from client ('127.0.0.1', 47800): b'Greetings'
+INFO:root:Message from client ('127.0.0.1', 47798): b'open(p'
+WARNING:root:Client ('127.0.0.1', 47798) disconnected.
+WARNING:root:Client ('127.0.0.1', 47800) disconnected.
+CRITICAL:root:Server stopped by user.
